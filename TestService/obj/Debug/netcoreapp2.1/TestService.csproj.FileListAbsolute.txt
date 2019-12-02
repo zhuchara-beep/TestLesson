@@ -1,0 +1,17 @@
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\bin\Debug\netcoreapp2.1\nlog.config
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\bin\Debug\netcoreapp2.1\TestService.deps.json
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\bin\Debug\netcoreapp2.1\TestService.runtimeconfig.json
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\bin\Debug\netcoreapp2.1\TestService.runtimeconfig.dev.json
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\bin\Debug\netcoreapp2.1\TestService.dll
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\bin\Debug\netcoreapp2.1\TestService.pdb
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\obj\Debug\netcoreapp2.1\TestService.RazorAssemblyInfo.cache
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\obj\Debug\netcoreapp2.1\TestService.RazorAssemblyInfo.cs
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\obj\Debug\netcoreapp2.1\TestService.AssemblyInfoInputs.cache
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\obj\Debug\netcoreapp2.1\TestService.AssemblyInfo.cs
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\obj\Debug\netcoreapp2.1\TestService.RazorTargetAssemblyInfo.cache
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\obj\Debug\netcoreapp2.1\TestService.dll
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\obj\Debug\netcoreapp2.1\TestService.pdb
+C:\Users\Jack\Source\Repos\TestLesson_OldSchool\TestService\obj\Debug\netcoreapp2.1\TestService.csprojAssemblyReference.cache

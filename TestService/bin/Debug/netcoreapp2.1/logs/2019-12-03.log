@@ -1,0 +1,355 @@
+[2019-12-03 00:06:51.7703][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:06:53.1831][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:06:55.1630][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 166 
+[2019-12-03 00:06:55.3244][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:06:55.4110][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:06:55.4363][DESKTOP-CN644FJ][Debug]  > 21704573 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:06:55.7837][DESKTOP-CN644FJ][Debug]  < 21704573 < {"Code":0,"Info":"Сотрудник успешно добавлен","Data":{"Uid":"2834bbc3-a9ad-47fd-a24a-558c73a78d1d","Name":"Перепись Александр Олегович","Position":null}} 
+[2019-12-03 00:06:55.7837][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 371.9759ms. 
+[2019-12-03 00:06:55.7916][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:06:55.7916][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 470.8651ms 
+[2019-12-03 00:06:55.8068][DESKTOP-CN644FJ][Info] Request finished in 644.2847ms 200 application/json; charset=utf-8 
+[2019-12-03 00:11:45.1043][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:11:46.0962][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:11:50.1561][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 164 
+[2019-12-03 00:11:50.3263][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:11:50.4092][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:11:50.4155][DESKTOP-CN644FJ][Debug]  > 38365882 > {"RequestIdent":"Persons","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:11:50.4155][DESKTOP-CN644FJ][Debug]  < 38365882 < {"Code":105,"Info":"Не найден метод","Data":null} 
+[2019-12-03 00:11:50.4155][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 11.6935ms. 
+[2019-12-03 00:11:50.4302][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:11:50.4302][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 109.1335ms 
+[2019-12-03 00:11:50.4302][DESKTOP-CN644FJ][Info] Request finished in 289.2936ms 200 application/json; charset=utf-8 
+[2019-12-03 00:12:01.5636][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:12:01.5636][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:12:01.5738][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:12:01.5738][DESKTOP-CN644FJ][Debug]  > 80962161 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:12:01.6588][DESKTOP-CN644FJ][Debug]  < 80962161 < {"Code":0,"Info":"OK","Data":[{"Uid":"341fbf36-5a0c-47ca-9601-4bec31274f38","Name":"Кит Николай Евгеньевич","Position":null},{"Uid":"2834bbc3-a9ad-47fd-a24a-558c73a78d1d","Name":"Перепись Александр Олегович","Position":null},{"Uid":"a12f6be7-d8bd-41f2-bc89-682520423b47","Name":"Хасанов Руслан Рамзанович","Position":null},{"Uid":"da575398-e7d7-4b22-af82-830b7d256cea","Name":"Кит Максим Николаевич","Position":null}]} 
+[2019-12-03 00:12:01.6588][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 81.299ms. 
+[2019-12-03 00:12:01.6588][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:12:01.6588][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 94.7289ms 
+[2019-12-03 00:12:01.6588][DESKTOP-CN644FJ][Info] Request finished in 99.0232ms 200 application/json; charset=utf-8 
+[2019-12-03 00:12:20.5677][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:12:20.5739][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:12:20.5739][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:12:20.5739][DESKTOP-CN644FJ][Debug]  > 52244524 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:12:20.5909][DESKTOP-CN644FJ][Debug]  < 52244524 < {"Code":0,"Info":"OK","Data":[{"Uid":"341fbf36-5a0c-47ca-9601-4bec31274f38","Name":"Кит Николай Евгеньевич","Position":null},{"Uid":"2834bbc3-a9ad-47fd-a24a-558c73a78d1d","Name":"Перепись Александр Олегович","Position":null},{"Uid":"a12f6be7-d8bd-41f2-bc89-682520423b47","Name":"Хасанов Руслан Рамзанович","Position":null},{"Uid":"da575398-e7d7-4b22-af82-830b7d256cea","Name":"Кит Максим Николаевич","Position":null}]} 
+[2019-12-03 00:12:20.5909][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 13.821ms. 
+[2019-12-03 00:12:20.5909][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:12:20.5909][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 18.2767ms 
+[2019-12-03 00:12:20.5909][DESKTOP-CN644FJ][Info] Request finished in 25.6415ms 200 application/json; charset=utf-8 
+[2019-12-03 00:12:35.7225][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:12:35.7314][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:12:35.7314][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:12:35.7314][DESKTOP-CN644FJ][Debug]  > 30452827 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:12:35.7471][DESKTOP-CN644FJ][Debug]  < 30452827 < {"Code":0,"Info":"OK","Data":[{"Uid":"341fbf36-5a0c-47ca-9601-4bec31274f38","Name":"Кит Николай Евгеньевич","Position":null},{"Uid":"2834bbc3-a9ad-47fd-a24a-558c73a78d1d","Name":"Перепись Александр Олегович","Position":null},{"Uid":"a12f6be7-d8bd-41f2-bc89-682520423b47","Name":"Хасанов Руслан Рамзанович","Position":null},{"Uid":"da575398-e7d7-4b22-af82-830b7d256cea","Name":"Кит Максим Николаевич","Position":null}]} 
+[2019-12-03 00:12:35.7471][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 8.8495ms. 
+[2019-12-03 00:12:35.7737][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:12:35.7737][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 50.0113ms 
+[2019-12-03 00:12:35.7737][DESKTOP-CN644FJ][Info] Request finished in 62.4429ms 200 application/json; charset=utf-8 
+[2019-12-03 00:12:47.5652][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:12:47.5652][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:12:47.5652][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:12:47.5755][DESKTOP-CN644FJ][Debug]  > 99212118 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:12:47.5755][DESKTOP-CN644FJ][Debug]  < 99212118 < {"Code":0,"Info":"OK","Data":[{"Uid":"341fbf36-5a0c-47ca-9601-4bec31274f38","Name":"Кит Николай Евгеньевич","Position":null},{"Uid":"2834bbc3-a9ad-47fd-a24a-558c73a78d1d","Name":"Перепись Александр Олегович","Position":null},{"Uid":"a12f6be7-d8bd-41f2-bc89-682520423b47","Name":"Хасанов Руслан Рамзанович","Position":null},{"Uid":"da575398-e7d7-4b22-af82-830b7d256cea","Name":"Кит Максим Николаевич","Position":null}]} 
+[2019-12-03 00:12:47.5755][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.8368ms. 
+[2019-12-03 00:12:47.5755][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:12:47.5755][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 10.0107ms 
+[2019-12-03 00:12:47.5755][DESKTOP-CN644FJ][Info] Request finished in 13.4952ms 200 application/json; charset=utf-8 
+[2019-12-03 00:13:18.3118][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:13:18.3118][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:13:18.3118][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:13:18.3242][DESKTOP-CN644FJ][Debug]  > 92831653 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:13:18.3242][DESKTOP-CN644FJ][Debug]  < 92831653 < {"Code":0,"Info":"OK","Data":[{"Uid":"341fbf36-5a0c-47ca-9601-4bec31274f38","Name":"Кит Николай Евгеньевич","Position":null},{"Uid":"2834bbc3-a9ad-47fd-a24a-558c73a78d1d","Name":"Перепись Александр Олегович","Position":null},{"Uid":"a12f6be7-d8bd-41f2-bc89-682520423b47","Name":"Хасанов Руслан Рамзанович","Position":null},{"Uid":"da575398-e7d7-4b22-af82-830b7d256cea","Name":"Кит Максим Николаевич","Position":null}]} 
+[2019-12-03 00:13:18.3242][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 8.3247ms. 
+[2019-12-03 00:13:18.3242][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:13:18.3242][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 11.7315ms 
+[2019-12-03 00:13:18.3242][DESKTOP-CN644FJ][Info] Request finished in 17.2464ms 200 application/json; charset=utf-8 
+[2019-12-03 00:13:25.1304][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:13:25.1344][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:13:25.1344][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:13:25.1344][DESKTOP-CN644FJ][Debug]  > 93806969 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:13:25.1344][DESKTOP-CN644FJ][Debug]  < 93806969 < {"Code":0,"Info":"OK","Data":[{"Uid":"341fbf36-5a0c-47ca-9601-4bec31274f38","Name":"Кит Николай Евгеньевич","Position":null},{"Uid":"2834bbc3-a9ad-47fd-a24a-558c73a78d1d","Name":"Перепись Александр Олегович","Position":null},{"Uid":"a12f6be7-d8bd-41f2-bc89-682520423b47","Name":"Хасанов Руслан Рамзанович","Position":null},{"Uid":"da575398-e7d7-4b22-af82-830b7d256cea","Name":"Кит Максим Николаевич","Position":null}]} 
+[2019-12-03 00:13:25.1344][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 4.8117ms. 
+[2019-12-03 00:13:25.1344][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:13:25.1344][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 6.917ms 
+[2019-12-03 00:13:25.1344][DESKTOP-CN644FJ][Info] Request finished in 13.7685ms 200 application/json; charset=utf-8 
+[2019-12-03 00:13:29.8659][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:13:29.8854][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:13:29.8854][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:13:29.8854][DESKTOP-CN644FJ][Debug]  > 73686568 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:13:29.9563][DESKTOP-CN644FJ][Error] Name 
+[2019-12-03 00:13:29.9563][DESKTOP-CN644FJ][Debug]  < 73686568 < {"Code":103,"Info":"Name","Data":null} 
+[2019-12-03 00:13:29.9563][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 71.3925ms. 
+[2019-12-03 00:13:29.9563][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:13:29.9563][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 73.153ms 
+[2019-12-03 00:13:29.9563][DESKTOP-CN644FJ][Info] Request finished in 93.8458ms 200 application/json; charset=utf-8 
+[2019-12-03 00:13:46.4898][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:13:46.5084][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:13:46.5084][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:13:46.5084][DESKTOP-CN644FJ][Debug]  > 13267170 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:13:46.5084][DESKTOP-CN644FJ][Debug]  < 13267170 < {"Code":0,"Info":"OK","Data":[{"Uid":"341fbf36-5a0c-47ca-9601-4bec31274f38","Name":"Кит Николай Евгеньевич","Position":null},{"Uid":"2834bbc3-a9ad-47fd-a24a-558c73a78d1d","Name":"Перепись Александр Олегович","Position":null},{"Uid":"a12f6be7-d8bd-41f2-bc89-682520423b47","Name":"Хасанов Руслан Рамзанович","Position":null},{"Uid":"da575398-e7d7-4b22-af82-830b7d256cea","Name":"Кит Максим Николаевич","Position":null}]} 
+[2019-12-03 00:13:46.5084][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5.6063ms. 
+[2019-12-03 00:13:46.5084][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:13:46.5084][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 11.2619ms 
+[2019-12-03 00:13:46.5084][DESKTOP-CN644FJ][Info] Request finished in 31.1751ms 200 application/json; charset=utf-8 
+[2019-12-03 00:17:56.4441][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:17:57.6168][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:17:59.8176][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:17:59.9959][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:18:00.1069][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:18:00.1069][DESKTOP-CN644FJ][Debug]  > 41208210 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:18:00.1996][DESKTOP-CN644FJ][Error] Position 
+[2019-12-03 00:18:00.1996][DESKTOP-CN644FJ][Debug]  < 41208210 < {"Code":103,"Info":"Position","Data":null} 
+[2019-12-03 00:18:00.1996][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 95.5646ms. 
+[2019-12-03 00:18:00.1996][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:18:00.2182][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 217.3244ms 
+[2019-12-03 00:18:00.2182][DESKTOP-CN644FJ][Info] Request finished in 407.7716ms 200 application/json; charset=utf-8 
+[2019-12-03 00:18:05.5994][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:18:05.5994][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:18:05.6015][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:18:05.6015][DESKTOP-CN644FJ][Debug]  > 45318796 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:18:05.6246][DESKTOP-CN644FJ][Error] Position 
+[2019-12-03 00:18:05.6246][DESKTOP-CN644FJ][Debug]  < 45318796 < {"Code":103,"Info":"Position","Data":null} 
+[2019-12-03 00:18:05.6246][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 24.0789ms. 
+[2019-12-03 00:18:05.6246][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:18:05.6246][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 26.335ms 
+[2019-12-03 00:18:05.6246][DESKTOP-CN644FJ][Info] Request finished in 28.3645ms 200 application/json; charset=utf-8 
+[2019-12-03 00:18:50.7789][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:18:52.1248][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:18:54.3932][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 167 
+[2019-12-03 00:18:54.5756][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:18:54.6711][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:18:54.6798][DESKTOP-CN644FJ][Debug]  > 33466684 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Александр Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:18:54.7456][DESKTOP-CN644FJ][Debug]  < 33466684 < {"Code":0,"Info":"OK","Data":[{"Uid":"341fbf36-5a0c-47ca-9601-4bec31274f38","Name":"Кит Николай Евгеньевич","Position":{"Uid":"4932e36e-d6f2-469f-9a9c-827a614ce193","Name":null}},{"Uid":"2834bbc3-a9ad-47fd-a24a-558c73a78d1d","Name":"Перепись Александр Олегович","Position":{"Uid":"6963a4ac-d4ab-4766-92c8-fe995ccbf0fe","Name":null}},{"Uid":"a12f6be7-d8bd-41f2-bc89-682520423b47","Name":"Хасанов Руслан Рамзанович","Position":{"Uid":"4932e36e-d6f2-469f-9a9c-827a614ce193","Name":null}},{"Uid":"da575398-e7d7-4b22-af82-830b7d256cea","Name":"Кит Максим Николаевич","Position":{"Uid":"4932e36e-d6f2-469f-9a9c-827a614ce193","Name":null}}]} 
+[2019-12-03 00:18:54.7456][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 74.4369ms. 
+[2019-12-03 00:18:54.7611][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:18:54.7737][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 195.3801ms 
+[2019-12-03 00:18:54.7737][DESKTOP-CN644FJ][Info] Request finished in 390.2591ms 200 application/json; charset=utf-8 
+[2019-12-03 00:20:00.8091][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 163 
+[2019-12-03 00:20:00.8091][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:20:00.8091][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:20:00.8235][DESKTOP-CN644FJ][Debug]  > 12403502 > {"RequestIdent":"PersonsAdd","Data":{"Name":"Перепись Алексей Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:20:00.8235][DESKTOP-CN644FJ][Debug]  < 12403502 < {"Code":105,"Info":"Не найден метод","Data":null} 
+[2019-12-03 00:20:00.8235][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 3.6048ms. 
+[2019-12-03 00:20:00.8235][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:20:00.8235][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 10.604ms 
+[2019-12-03 00:20:00.8235][DESKTOP-CN644FJ][Info] Request finished in 21.254ms 200 application/json; charset=utf-8 
+[2019-12-03 00:20:04.2432][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 162 
+[2019-12-03 00:20:04.2432][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:20:04.2432][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:20:04.2432][DESKTOP-CN644FJ][Debug]  > 17188641 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Алексей Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:20:04.3463][DESKTOP-CN644FJ][Debug]  < 17188641 < {"Code":0,"Info":"Сотрудник успешно добавлен","Data":{"Uid":"fd0a6481-97b9-45bd-afe9-984776d65b66","Name":"Перепись Алексей Олегович","Position":{"Uid":"6963a4ac-d4ab-4766-92c8-fe995ccbf0fe","Name":null}}} 
+[2019-12-03 00:20:04.3463][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 100.3275ms. 
+[2019-12-03 00:20:04.3463][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:20:04.3463][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 102.2228ms 
+[2019-12-03 00:20:04.3463][DESKTOP-CN644FJ][Info] Request finished in 106.6523ms 200 application/json; charset=utf-8 
+[2019-12-03 00:20:33.9584][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 158 
+[2019-12-03 00:20:33.9674][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:20:33.9674][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:20:33.9674][DESKTOP-CN644FJ][Debug]  > 69459901 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Артем Олегович","Position":"6963A4AC-D4AB-4766-92C8-FE995CCBF0FE"}} 
+[2019-12-03 00:20:33.9827][DESKTOP-CN644FJ][Debug]  < 69459901 < {"Code":0,"Info":"Сотрудник успешно добавлен","Data":{"Uid":"808598bc-168a-4b56-85df-79245b4e353b","Name":"Перепись Артем Олегович","Position":{"Uid":"6963a4ac-d4ab-4766-92c8-fe995ccbf0fe","Name":null}}} 
+[2019-12-03 00:20:33.9827][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 14.0944ms. 
+[2019-12-03 00:20:33.9827][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:20:33.9827][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 17.4249ms 
+[2019-12-03 00:20:33.9827][DESKTOP-CN644FJ][Info] Request finished in 33.3612ms 200 application/json; charset=utf-8 
+[2019-12-03 00:21:04.4669][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 108 
+[2019-12-03 00:21:04.4955][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:21:04.4955][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:21:04.4955][DESKTOP-CN644FJ][Debug]  > 82798054 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Николай Олегович"}} 
+[2019-12-03 00:21:44.1433][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:21:45.0724][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:21:48.6492][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 108 
+[2019-12-03 00:21:48.8276][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:21:48.9197][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:21:48.9448][DESKTOP-CN644FJ][Debug]  > 85187661 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Николай Олегович"}} 
+[2019-12-03 00:21:49.2264][DESKTOP-CN644FJ][Error] Conversion failed when converting from a character string to uniqueidentifier. 
+[2019-12-03 00:21:49.2300][DESKTOP-CN644FJ][Debug]  < 85187661 < {"Code":103,"Info":"Conversion failed when converting from a character string to uniqueidentifier.","Data":null} 
+[2019-12-03 00:21:49.2300][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 307.0207ms. 
+[2019-12-03 00:21:49.2300][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:21:49.2488][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 418.0221ms 
+[2019-12-03 00:21:49.2580][DESKTOP-CN644FJ][Info] Request finished in 609.0971ms 200 application/json; charset=utf-8 
+[2019-12-03 00:22:31.0665][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 108 
+[2019-12-03 00:22:31.0768][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:22:31.0768][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:22:31.0768][DESKTOP-CN644FJ][Debug]  > 35897615 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Николай Олегович"}} 
+[2019-12-03 00:22:31.1254][DESKTOP-CN644FJ][Error] Conversion failed when converting from a character string to uniqueidentifier. 
+[2019-12-03 00:22:31.1254][DESKTOP-CN644FJ][Debug]  < 35897615 < {"Code":103,"Info":"Conversion failed when converting from a character string to uniqueidentifier.","Data":null} 
+[2019-12-03 00:22:31.1254][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 42.4392ms. 
+[2019-12-03 00:22:31.1254][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:22:31.1254][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 48.8673ms 
+[2019-12-03 00:22:31.1254][DESKTOP-CN644FJ][Info] Request finished in 65.6986ms 200 application/json; charset=utf-8 
+[2019-12-03 00:24:26.1373][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 108 
+[2019-12-03 00:24:26.1373][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:24:26.1373][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:24:26.1805][DESKTOP-CN644FJ][Debug]  > 56230926 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Николай Олегович"}} 
+[2019-12-03 00:24:42.0567][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:24:43.3811][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:24:44.6833][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 108 
+[2019-12-03 00:24:44.8724][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:24:44.9654][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:24:44.9654][DESKTOP-CN644FJ][Debug]  > 82344838 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Николай Олегович"}} 
+[2019-12-03 00:24:50.0491][DESKTOP-CN644FJ][Error] Conversion failed when converting from a character string to uniqueidentifier. 
+[2019-12-03 00:24:50.0491][DESKTOP-CN644FJ][Debug]  < 82344838 < {"Code":103,"Info":"Conversion failed when converting from a character string to uniqueidentifier.","Data":null} 
+[2019-12-03 00:24:50.0557][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5087.4389ms. 
+[2019-12-03 00:24:50.0557][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:24:50.0728][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 5197.3896ms 
+[2019-12-03 00:24:50.0883][DESKTOP-CN644FJ][Info] Request finished in 5405.3167ms 200 application/json; charset=utf-8 
+[2019-12-03 00:25:25.6871][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 108 
+[2019-12-03 00:25:25.6871][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:25:25.6976][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:25:25.6976][DESKTOP-CN644FJ][Debug]  > 50522122 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Николай Олегович"}} 
+[2019-12-03 00:25:25.7677][DESKTOP-CN644FJ][Error] Conversion failed when converting from a character string to uniqueidentifier. 
+[2019-12-03 00:25:25.7677][DESKTOP-CN644FJ][Debug]  < 50522122 < {"Code":103,"Info":"Conversion failed when converting from a character string to uniqueidentifier.","Data":null} 
+[2019-12-03 00:25:25.7677][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 70.102ms. 
+[2019-12-03 00:25:25.7677][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:25:25.7788][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 82.1538ms 
+[2019-12-03 00:25:25.7788][DESKTOP-CN644FJ][Info] Request finished in 92.709ms 200 application/json; charset=utf-8 
+[2019-12-03 00:26:00.2319][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 108 
+[2019-12-03 00:26:00.2319][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:26:00.2319][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:26:00.2319][DESKTOP-CN644FJ][Debug]  > 65472907 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Николай Олегович"}} 
+[2019-12-03 00:26:00.2510][DESKTOP-CN644FJ][Debug]  < 65472907 < {"Code":3,"Info":"Указан несуществующий идентификатор профессии","Data":null} 
+[2019-12-03 00:26:00.2510][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 12.1427ms. 
+[2019-12-03 00:26:00.2510][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:26:00.2510][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 15.5835ms 
+[2019-12-03 00:26:00.2510][DESKTOP-CN644FJ][Info] Request finished in 23.5428ms 200 application/json; charset=utf-8 
+[2019-12-03 00:26:32.7669][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 108 
+[2019-12-03 00:26:32.7669][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:26:32.7760][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:26:32.7760][DESKTOP-CN644FJ][Debug]  > 29213080 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Николай Олегович"}} 
+[2019-12-03 00:26:32.8134][DESKTOP-CN644FJ][Error] Cannot insert the value NULL into column 'UidPosition', table 'TestBase.dbo.Person'; column does not allow nulls. INSERT fails.
+The statement has been terminated. 
+[2019-12-03 00:26:32.8134][DESKTOP-CN644FJ][Debug]  < 29213080 < {"Code":103,"Info":"Cannot insert the value NULL into column 'UidPosition', table 'TestBase.dbo.Person'; column does not allow nulls. INSERT fails.\r\nThe statement has been terminated.","Data":null} 
+[2019-12-03 00:26:32.8134][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 41.375ms. 
+[2019-12-03 00:26:32.8134][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:26:32.8134][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 45.3263ms 
+[2019-12-03 00:26:32.8134][DESKTOP-CN644FJ][Info] Request finished in 52.1608ms 200 application/json; charset=utf-8 
+[2019-12-03 00:26:48.3630][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 108 
+[2019-12-03 00:26:48.3682][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:26:48.3682][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:26:48.3682][DESKTOP-CN644FJ][Debug]  > 48891166 > {"RequestIdent":"PersonAdd","Data":{"Name":"Перепись Николай Олегович"}} 
+[2019-12-03 00:26:48.3858][DESKTOP-CN644FJ][Debug]  < 48891166 < {"Code":0,"Info":"Сотрудник успешно добавлен","Data":{"Uid":"8a8a440a-dddc-458e-bd95-d28c61b26847","Name":"Перепись Николай Олегович","Position":{"Uid":"4932e36e-d6f2-469f-9a9c-827a614ce193","Name":null}}} 
+[2019-12-03 00:26:48.3858][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 10.0657ms. 
+[2019-12-03 00:26:48.3858][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:26:48.3858][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 15.4091ms 
+[2019-12-03 00:26:48.3858][DESKTOP-CN644FJ][Info] Request finished in 31.3192ms 200 application/json; charset=utf-8 
+[2019-12-03 00:28:59.3702][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:29:00.0178][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:29:35.0638][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:29:36.3853][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:29:44.1598][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 109 
+[2019-12-03 00:29:44.3438][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:29:44.4328][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:29:44.4328][DESKTOP-CN644FJ][Debug]  > 19721939 > {"RequestIdent":"PersonsGet","Data":{"Name":"Перепись Николай Олегович"}} 
+[2019-12-03 00:29:44.4972][DESKTOP-CN644FJ][Debug]  < 19721939 < {"Code":0,"Info":"OK","Data":[{"Uid":"341fbf36-5a0c-47ca-9601-4bec31274f38","Name":"Кит Николай Евгеньевич","Position":{"Uid":"4932e36e-d6f2-469f-9a9c-827a614ce193","Name":null}},{"Uid":"2834bbc3-a9ad-47fd-a24a-558c73a78d1d","Name":"Перепись Александр Олегович","Position":{"Uid":"6963a4ac-d4ab-4766-92c8-fe995ccbf0fe","Name":null}},{"Uid":"a12f6be7-d8bd-41f2-bc89-682520423b47","Name":"Хасанов Руслан Рамзанович","Position":{"Uid":"4932e36e-d6f2-469f-9a9c-827a614ce193","Name":null}},{"Uid":"808598bc-168a-4b56-85df-79245b4e353b","Name":"Перепись Артем Олегович","Position":{"Uid":"6963a4ac-d4ab-4766-92c8-fe995ccbf0fe","Name":null}},{"Uid":"da575398-e7d7-4b22-af82-830b7d256cea","Name":"Кит Максим Николаевич","Position":{"Uid":"4932e36e-d6f2-469f-9a9c-827a614ce193","Name":null}},{"Uid":"fd0a6481-97b9-45bd-afe9-984776d65b66","Name":"Перепись Алексей Олегович","Position":{"Uid":"6963a4ac-d4ab-4766-92c8-fe995ccbf0fe","Name":null}},{"Uid":"8a8a440a-dddc-458e-bd95-d28c61b26847","Name":"Перепись Николай Олегович","Position":{"Uid":"4932e36e-d6f2-469f-9a9c-827a614ce193","Name":null}}]} 
+[2019-12-03 00:29:44.4972][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 63.1577ms. 
+[2019-12-03 00:29:44.4972][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:29:44.5154][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 167.7588ms 
+[2019-12-03 00:29:44.5264][DESKTOP-CN644FJ][Info] Request finished in 366.8728ms 200 application/json; charset=utf-8 
+[2019-12-03 00:30:00.9825][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 86 
+[2019-12-03 00:30:00.9825][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:30:00.9825][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:30:00.9825][DESKTOP-CN644FJ][Debug]  > 70606750 > {"RequestIdent":"PersonAdd","Data":{"Name":"Тест Тест Тест"}} 
+[2019-12-03 00:30:01.1444][DESKTOP-CN644FJ][Error] PositionUid 
+[2019-12-03 00:30:01.1444][DESKTOP-CN644FJ][Debug]  < 70606750 < {"Code":103,"Info":"PositionUid","Data":null} 
+[2019-12-03 00:30:01.1444][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 155.7234ms. 
+[2019-12-03 00:30:01.1533][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:30:01.1533][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 163.9041ms 
+[2019-12-03 00:30:01.1533][DESKTOP-CN644FJ][Info] Request finished in 172.1433ms 200 application/json; charset=utf-8 
+[2019-12-03 00:31:38.2156][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 94 
+[2019-12-03 00:31:38.2396][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:31:38.2458][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:31:38.2458][DESKTOP-CN644FJ][Debug]  > 52168367 > {"RequestIdent":"PersonAdd","Data":{"Name":"Тест Тест Тестович"}} 
+[2019-12-03 00:34:08.1146][DESKTOP-CN644FJ][Error] Invalid attempt to read when no data is present. 
+[2019-12-03 00:34:08.1146][DESKTOP-CN644FJ][Debug]  < 52168367 < {"Code":103,"Info":"Invalid attempt to read when no data is present.","Data":null} 
+[2019-12-03 00:34:08.1260][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 149878.534ms. 
+[2019-12-03 00:34:08.1260][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:34:08.1260][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 149884.4679ms 
+[2019-12-03 00:34:08.1260][DESKTOP-CN644FJ][Info] Request finished in 149915.6615ms 200 application/json; charset=utf-8 
+[2019-12-03 00:37:46.5014][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 94 
+[2019-12-03 00:37:46.5014][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:37:46.5096][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:37:46.5096][DESKTOP-CN644FJ][Debug]  > 44307471 > {"RequestIdent":"PersonAdd","Data":{"Name":"Тест Тест Тестович"}} 
+[2019-12-03 00:37:52.7284][DESKTOP-CN644FJ][Error] PositionUid 
+[2019-12-03 00:37:52.7284][DESKTOP-CN644FJ][Debug]  < 44307471 < {"Code":103,"Info":"PositionUid","Data":null} 
+[2019-12-03 00:37:52.7284][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 6222.0212ms. 
+[2019-12-03 00:37:52.7284][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:37:52.7284][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 6227.2917ms 
+[2019-12-03 00:37:52.7284][DESKTOP-CN644FJ][Info] Request finished in 6236.1533ms 200 application/json; charset=utf-8 
+[2019-12-03 00:40:02.0399][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 94 
+[2019-12-03 00:40:02.0735][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:40:02.0735][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:40:02.0735][DESKTOP-CN644FJ][Debug]  > 70356981 > {"RequestIdent":"PersonAdd","Data":{"Name":"Тест Тест Тестович"}} 
+[2019-12-03 00:40:02.1114][DESKTOP-CN644FJ][Error] PositionUid 
+[2019-12-03 00:40:02.1114][DESKTOP-CN644FJ][Debug]  < 70356981 < {"Code":103,"Info":"PositionUid","Data":null} 
+[2019-12-03 00:40:02.1114][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 34.1394ms. 
+[2019-12-03 00:40:02.1114][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:40:02.1114][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 39.2343ms 
+[2019-12-03 00:40:02.1114][DESKTOP-CN644FJ][Info] Request finished in 73.9254ms 200 application/json; charset=utf-8 
+[2019-12-03 00:41:25.2314][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 94 
+[2019-12-03 00:41:25.2314][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:41:25.2314][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:41:25.2314][DESKTOP-CN644FJ][Debug]  > 48946798 > {"RequestIdent":"PersonAdd","Data":{"Name":"Тест Тест Тестович"}} 
+[2019-12-03 00:41:25.2730][DESKTOP-CN644FJ][Error] PositionUid 
+[2019-12-03 00:41:25.2739][DESKTOP-CN644FJ][Debug]  < 48946798 < {"Code":103,"Info":"PositionUid","Data":null} 
+[2019-12-03 00:41:25.2739][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 32.3838ms. 
+[2019-12-03 00:41:25.2739][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:41:25.2739][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 39.6978ms 
+[2019-12-03 00:41:25.2739][DESKTOP-CN644FJ][Info] Request finished in 44.0836ms 200 application/json; charset=utf-8 
+[2019-12-03 00:42:19.3329][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:42:20.4363][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:42:22.5752][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 95 
+[2019-12-03 00:42:22.7286][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:42:22.8302][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:42:22.8302][DESKTOP-CN644FJ][Debug]  > 30745905 > {"RequestIdent":"PersonAdd","Data":{"Name":"Тест Тест Тестович2"}} 
+[2019-12-03 00:42:23.0092][DESKTOP-CN644FJ][Error] Position.Uid 
+[2019-12-03 00:42:23.0092][DESKTOP-CN644FJ][Debug]  < 30745905 < {"Code":103,"Info":"Position.Uid","Data":null} 
+[2019-12-03 00:42:23.0092][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 182.1648ms. 
+[2019-12-03 00:42:23.0092][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:42:23.0288][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 296.8849ms 
+[2019-12-03 00:42:23.0288][DESKTOP-CN644FJ][Info] Request finished in 460.1708ms 200 application/json; charset=utf-8 
+[2019-12-03 00:44:03.2638][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:44:04.3528][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:44:07.0158][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 95 
+[2019-12-03 00:44:07.1774][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:44:07.2659][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:44:07.2778][DESKTOP-CN644FJ][Debug]  > 86680304 > {"RequestIdent":"PersonAdd","Data":{"Name":"Тест Тест Тестович3"}} 
+[2019-12-03 00:44:07.4860][DESKTOP-CN644FJ][Error] Invalid attempt to read when no data is present. 
+[2019-12-03 00:44:07.4860][DESKTOP-CN644FJ][Debug]  < 86680304 < {"Code":103,"Info":"Invalid attempt to read when no data is present.","Data":null} 
+[2019-12-03 00:44:07.4926][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 223.1848ms. 
+[2019-12-03 00:44:07.4926][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:44:07.4926][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 325.5467ms 
+[2019-12-03 00:44:07.5133][DESKTOP-CN644FJ][Info] Request finished in 497.7594ms 200 application/json; charset=utf-8 
+[2019-12-03 00:49:40.6315][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:49:42.2408][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:49:47.1252][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 95 
+[2019-12-03 00:49:47.3052][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:49:47.4232][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:49:47.4232][DESKTOP-CN644FJ][Debug]  > 80591693 > {"RequestIdent":"PersonAdd","Data":{"Name":"Тест Тест Тестович4"}} 
+[2019-12-03 00:49:47.6223][DESKTOP-CN644FJ][Error] PositionUid 
+[2019-12-03 00:49:47.6223][DESKTOP-CN644FJ][Debug]  < 80591693 < {"Code":103,"Info":"PositionUid","Data":null} 
+[2019-12-03 00:49:47.6223][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 202.2638ms. 
+[2019-12-03 00:49:47.6345][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:49:47.6345][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 333.4385ms 
+[2019-12-03 00:49:47.6345][DESKTOP-CN644FJ][Info] Request finished in 523.1835ms 200 application/json; charset=utf-8 
+[2019-12-03 00:51:18.7672][DESKTOP-CN644FJ][Info] Запуск тестового сервиса 
+[2019-12-03 00:51:20.0146][DESKTOP-CN644FJ][Info] User profile is available. Using 'C:\Users\Jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2019-12-03 00:51:30.1078][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 95 
+[2019-12-03 00:51:30.2836][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:51:30.3798][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:51:30.3855][DESKTOP-CN644FJ][Debug]  > 98537299 > {"RequestIdent":"PersonAdd","Data":{"Name":"Тест Тест Тестович4"}} 
+[2019-12-03 00:51:30.5271][DESKTOP-CN644FJ][Debug]  < 98537299 < {"Code":0,"Info":"Сотрудник успешно добавлен","Data":{"Uid":"44a13716-1dd4-4184-9bc5-1c094a4a2a71","Name":"Тест Тест Тестович4","Position":{"Uid":"4932e36e-d6f2-469f-9a9c-827a614ce193","Name":"Рядовой"}}} 
+[2019-12-03 00:51:30.5271][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 147.3124ms. 
+[2019-12-03 00:51:30.5271][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:51:30.5518][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 264.78ms 
+[2019-12-03 00:51:30.5606][DESKTOP-CN644FJ][Info] Request finished in 453.0484ms 200 application/json; charset=utf-8 
+[2019-12-03 00:51:54.3439][DESKTOP-CN644FJ][Info] Request starting HTTP/1.1 POST http://192.168.1.36:5559/api/values application/json 148 
+[2019-12-03 00:51:54.3439][DESKTOP-CN644FJ][Info] Route matched with {action = "Post", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Post(TestService.Models.Request) on controller TestService.Controllers.ValuesController (TestService). 
+[2019-12-03 00:51:54.3520][DESKTOP-CN644FJ][Info] Executing action method TestService.Controllers.ValuesController.Post (TestService) - Validation state: Valid 
+[2019-12-03 00:51:54.3520][DESKTOP-CN644FJ][Debug]  > 17692673 > {"RequestIdent":"PersonAdd","Data":{"Name":"Тест Тест Тестович","Position":"4932e36e-d6f2-469f-9a9c-827a614ce193"}} 
+[2019-12-03 00:51:54.3520][DESKTOP-CN644FJ][Debug]  < 17692673 < {"Code":0,"Info":"Сотрудник успешно добавлен","Data":{"Uid":"caa51a2b-c519-42cf-94c2-bcee500b52e3","Name":"Тест Тест Тестович","Position":{"Uid":"4932e36e-d6f2-469f-9a9c-827a614ce193","Name":"Рядовой"}}} 
+[2019-12-03 00:51:54.3520][DESKTOP-CN644FJ][Info] Executed action method TestService.Controllers.ValuesController.Post (TestService), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5.9962ms. 
+[2019-12-03 00:51:54.3520][DESKTOP-CN644FJ][Info] Executing JsonResult, writing value of type 'TestService.Models.Result'. 
+[2019-12-03 00:51:54.3520][DESKTOP-CN644FJ][Info] Executed action TestService.Controllers.ValuesController.Post (TestService) in 11.2712ms 
+[2019-12-03 00:51:54.3520][DESKTOP-CN644FJ][Info] Request finished in 16.3333ms 200 application/json; charset=utf-8 
